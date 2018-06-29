@@ -68,6 +68,7 @@ h1 {
   margin: 10px;
   display: flex;
   justify-content: space-around;
+  border-radius: 5px;
 }
 
 li {
@@ -78,7 +79,30 @@ li {
   margin: 10px;
 }
 
-a{
+.list-headers {
+  color: #296856;
+  margin: 0;
+  padding: 5px;
+  font-size: 26px;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.repo-link {
+  color: #2d1a72;
+  margin: 0;
+  background-color: #51a8e2;
+  border: 2px outset #51a8e2;
+  border-radius: 3px;
+  padding: 3px 5px;
+}
+
+a {
   text-decoration: none;
 }
 
