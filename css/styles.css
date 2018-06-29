@@ -14,6 +14,7 @@ body{
   background-position: center;
 }
 
+
 h1{
   color: blue;
   margin: 0;
@@ -27,11 +28,29 @@ h1{
   justify-content: flex-end;
   font-style: italic;
   font-size: 36px;
-  padding: 5px 25px;
+  padding: 15px 45px;
 }
 
 .main-body{
   width: 80%;
-  margin: auto;
+  margin: 30px auto;
   box-shadow: 5px 5px grey;
+}
+
+.first-section{
+  display: flex;
+  background-color: grey;
+}
+
+#portfolio-p{
+  border: 2px;
+  border-right: 0;
+  border: solid green;
+  border-radius: 5px;
+}
+
+#hw-image{
+  width: 45%;
+  height: 45%;
+  image-resolution: from-image;
 }
