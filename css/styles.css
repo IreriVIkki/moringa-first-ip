@@ -1,0 +1,19 @@
+html{
+  margin: 0;
+}
+
+body{
+  margin: 0;
+}
+
+.head-bg{
+  background-image: url('../img/index-head.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+h1{
+  color: blue;
+  margin: 0;
+  padding: 120px 0 120px 25%;
+}
