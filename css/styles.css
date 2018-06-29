@@ -110,6 +110,11 @@ a {
 #footer{
   background-color: #4f3d5b;
   height: 500px;
+  display: flex;
+}
+
+#footer-img{
+  
 }
 
 /* ol :nth-child(odd) {
