@@ -120,6 +120,7 @@ a {
   border: 3px solid green;
   border-radius: 5px;
   background-color: grey;
+  margin: 0 auto;
 }
 
 figure img{
@@ -127,7 +128,7 @@ figure img{
 }
 
 figcaption{
-  padding: 0 10px;
+  padding: 15px 10px;
 }
 
 #footer-img{
@@ -136,8 +137,14 @@ figcaption{
 }
 
 #aboutme-right{
+  padding: 10px;
   width: 45%;
+  border: 3px solid green;
+  border-radius: 5px;
+  background-color: grey;
+  margin: 0 auto;
 }
+
 /* ol :nth-child(odd) {
   background-color: #f4f4f4;
 }
