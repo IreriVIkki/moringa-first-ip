@@ -39,6 +39,7 @@ h1 {
 }
 
 .first-section {
+  margin-top: 40px;
   display: flex;
   justify-content: center;
   background-color: #fff;
@@ -109,14 +110,34 @@ a {
 
 #footer{
   background-color: #4f3d5b;
-  height: 500px;
   display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#aboutme-left{
+  width: 45%;
+  border: 3px solid green;
+  border-radius: 5px;
+  background-color: grey;
+}
+
+figure img{
+  margin: 0;
+}
+
+figcaption{
+  padding: 0 10px;
 }
 
 #footer-img{
-  
+  height: 300px;
+  width: 100%;
 }
 
+#aboutme-right{
+  width: 45%;
+}
 /* ol :nth-child(odd) {
   background-color: #f4f4f4;
 }
