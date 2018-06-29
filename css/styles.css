@@ -33,7 +33,8 @@ h1 {
 .main-body {
   width: 80%;
   margin: 30px auto;
-  box-shadow: 5px 5px grey;
+  box-shadow: 5px 5px 2px 5px grey;
+  border-radius: 7px;
   padding: 10px;
 }
 
