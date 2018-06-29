@@ -145,6 +145,11 @@ figcaption{
   margin: 0 auto;
 }
 
+#aboutme-right h3{
+  font-style: italic;
+  font-size: 28px;
+}
+
 /* ol :nth-child(odd) {
   background-color: #f4f4f4;
 }
