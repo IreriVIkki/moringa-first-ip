@@ -1,29 +1,28 @@
-html{
+html {
   margin: 0;
 }
 
-body{
+body {
   margin: 0;
   line-height: 1.6em;
   word-spacing: 0.05em;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#head-bg{
+#head-bg {
   background-image: url('../img/index-head.jpg');
   background-size: cover;
   background-position: center;
 }
 
-
-h1{
+h1 {
   color: blue;
   margin: 0;
   padding: 200px 0 60px 10%;
   font-size: 84px;
 }
 
-#my-name{
+#my-name {
   display: flex;
   justify-content: flex-end;
   font-style: italic;
@@ -31,21 +30,20 @@ h1{
   padding: 15px 45px;
 }
 
-.main-body{
+.main-body {
   width: 80%;
   margin: 30px auto;
   box-shadow: 5px 5px grey;
   padding: 10px;
 }
 
-.first-section{
+.first-section {
   display: flex;
   justify-content: center;
   background-color: #fff;
 }
 
-#portfolio-p{
-
+#portfolio-p {
   width: 45%;
   border-right: 0;
   border: 2px solid green;
@@ -54,19 +52,19 @@ h1{
   margin: 0 auto;
 }
 
-#hw-image{
+#hw-image {
   width: 45%;
   margin: 0 auto;
 }
 
-#hw-image img{
+#hw-image img {
   width: auto;
   height: auto;
   border: 2px solid green;
   max-width: 500px;
 }
 
-.second-section{
+.second-section {
   margin: 10px;
   display: flex;
   justify-content: space-around;
@@ -74,6 +72,22 @@ h1{
   border-radius: 5px;
 }
 
-li{
+li {
   list-style: none;
+  border-radius: 5px;
+  background-color: #c2c3c4;
+  padding: 15px;
+  margin: 10px;
 }
+
+a{
+  text-decoration: none;
+}
+
+/* ol :nth-child(odd) {
+  background-color: #f4f4f4;
+}
+
+ol :nth-child(even) {
+  background-color: #c2c3c4;
+} */
